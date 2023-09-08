@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+}
+
+/* Header */
+header {
+    height: 150px;
+    max-width: 1200px;
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-top: none;
+}
+
+#banner {
+    width: 95%;
+    height: 100px;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+#logo {
+    width: 100px;
+    float: right;
+}
+
+#slogan {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* Menu */
+#menu {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: double;
+    border-bottom: double;
+}
+
+#button {
+    border: 0px solid;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+}
+
+#txtbutton {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+li {
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+li:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Body */
+#container {
+    max-width: 1200px;
+    max-height: 755px;
+    height: 755px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-left: solid 5px;
+    border-right: solid 5px;
+}
+
+#containerbody {
+    display: block flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+}
+
+/* Footer */ 
+footer {
+    height: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    padding:5px;
+}
+
+
+/* Home */
+#underc {
+    width: 500px;
+}
+
+#undercimg {
+    width: 500px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contact */
+
+#send:active {
+    background-color: black;
+}
